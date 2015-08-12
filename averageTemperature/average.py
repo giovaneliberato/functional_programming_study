@@ -2,6 +2,12 @@
 
 add_numbers = int.__add__
 
+def all_temperatures(array):
+    return pluck(array, "temperatures")
+
+def all_population(array):
+    return pluck(array, "population")
+
 def combine_arrays(array1, array2, final_array=None):
     final_array = final_array or []
 
