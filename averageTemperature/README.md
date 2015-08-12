@@ -1,6 +1,7 @@
 #### Problem
 
 For example, let’s say we have an API response:
+```
 var data = [
   {
     name: "Jamestown",
@@ -18,10 +19,13 @@ var data = [
     temperatures: [75, 75, 75, 75, 75]
   }
 ];
+```
 
 If we want to use a chart or graphing library to compare the average temperature to population size, we’d need to write some JavaScript that makes a few changes to the data before it’s formatted correctly for our visualization. Our graphing library wants an array of x and y coordinates, like so:
+```
 [
   [temp, pop_size],
   [temp, pop_size]
   …etc
 ]
+```
