@@ -11,3 +11,4 @@ Secondly, functional programs should be stateless, which basically means they sh
 
 #### References
  - http://www.smashingmagazine.com/2014/07/dont-be-scared-of-functional-programming/
+ - https://gist.github.com/giovaneliberato/c1c6b3f733a05f3b5953
